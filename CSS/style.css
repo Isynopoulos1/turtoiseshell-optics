@@ -1,3 +1,9 @@
+body {
+  background-image: url("../images/image4.png");
+  background-size: cover;
+}
+
+/*HEADER SECTION*/
 header {
   display: flex;
   justify-content: space-between;
@@ -11,13 +17,13 @@ header {
   display: flex;
   align-items: center;
   justify-content: space-between;
+  margin-top: 1rem;
 }
 .site-container img {
   height: 1.5rem;
   margin-left: 2rem;
   margin-right: 1rem;
 }
-
 .site-container p {
   font-family: Helvetica;
   color: white;
@@ -27,6 +33,7 @@ header {
   display: flex;
   align-items: center;
 }
+/*NAV SECTION*/
 nav {
   font-family: Helvetica;
   font-size: 1rem;
@@ -38,3 +45,4 @@ a {
   text-decoration: none;
   margin-right: 2rem;
 }
+/*MAIN SECTION*/
