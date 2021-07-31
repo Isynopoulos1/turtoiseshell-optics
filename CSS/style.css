@@ -1,16 +1,22 @@
 body {
-  background-image: url("../images/image4.png");
-  background-size: cover;
 }
-
 /*HEADER SECTION*/
 header {
+  position: relative;
   display: flex;
   justify-content: space-between;
   align-items: center;
   flex-direction: column;
+  background-image: url("../images/image4.png");
+  background-size: cover;
+  height: 30rem;
 }
-.site-container {
+.banner-container {
+  position: relative;
+  width: 960px;
+}
+.menu-container {
+  position: relative;
   width: 960px;
   height: 3rem;
   background-color: cadetblue;
@@ -19,12 +25,12 @@ header {
   justify-content: space-between;
   margin-top: 1rem;
 }
-.site-container img {
+.menu-container img {
   height: 1.5rem;
   margin-left: 2rem;
   margin-right: 1rem;
 }
-.site-container p {
+.menu-container p {
   font-family: Helvetica;
   color: white;
   font-size: 1rem;
@@ -46,3 +52,20 @@ a {
   margin-right: 2rem;
 }
 /*MAIN SECTION*/
+main {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+.main-title {
+  position: absolute;
+  height: 2rem;
+  right: -2rem;
+  background-color: white;
+  margin-top: 10rem;
+  padding: 1.5rem 5rem 1.5rem 5rem;
+  font-family: Helvetica;
+  font-weight: bold;
+  font-size: 2rem;
+  line-height: 1.2;
+}
