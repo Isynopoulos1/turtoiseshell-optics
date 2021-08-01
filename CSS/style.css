@@ -197,5 +197,7 @@ h2 {
   .main-title {
     font-size: 1rem;
     padding-left: 35%;
+    display: flex;
+    align-items: center;
   }
 }
