@@ -170,6 +170,7 @@ h2 {
     display: none;
   }
 }
+
 /*RESPONSIVE MOBILE SECTION*/
 @media (max-width: 580px) {
   .main-title {
@@ -182,7 +183,6 @@ h2 {
   menu {
     display: flex;
   }
-
   .menu-container {
     margin-top: 0rem;
   }
@@ -192,8 +192,66 @@ h2 {
   .branding-container p {
     display: none;
   }
+  .icons-section {
+    display: flex;
+    flex-direction: column;
+  }
+  .icon-1 {
+    display: flex;
+    flex-direction: column;
+    margin-right: 6rem;
+    margin-right: -20%;
+    margin-bottom: 1.5rem;
+    margin-top: 3.77rem;
+  }
+  .icon-2 {
+    display: flex;
+    flex-direction: column;
+    margin-right: 6rem;
+    margin-right: -20%;
+    margin-bottom: 1.54rem;
+  }
+  .icon-3 {
+    display: flex;
+    flex-direction: column;
+    margin-right: 6rem;
+    margin-right: -20%;
+    margin-bottom: 3.77rem;
+  }
+  .icons-section p {
+    font-size: 0.77rem;
+  }
+  .blocks {
+    flex-direction: column;
+  }
+  .block-1 {
+    width: 100%;
+  }
+  .content-1 p {
+    text-align: left;
+    padding: 5%;
+  }
+  .tittle-1 {
+    width: auto;
+    margin-left: none;
+    display: flex;
+    justify-content: center;
+  }
+  .block-2 {
+    width: 100%;
+  }
+  .content-2 p {
+    text-align: left;
+    padding: 5%;
+  }
+  .tittle-2 {
+    width: auto;
+    margin-left: none;
+    display: flex;
+    justify-content: center;
+  }
 }
-@media (max-width: 500px) {
+@media (max-width: 450px) {
   .main-title {
     font-size: 1rem;
     padding-left: 35%;
