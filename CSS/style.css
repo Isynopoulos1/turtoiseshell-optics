@@ -1,4 +1,5 @@
 body {
+  background-color: azure;
 }
 /*HEADER SECTION*/
 header {
@@ -142,6 +143,7 @@ h2 {
   justify-content: center;
   align-content: center;
   grid-gap: 5rem;
+  margin-bottom: 5rem;
 }
 .blocks p {
   font-family: Helvetica;
@@ -155,6 +157,24 @@ h2 {
   width: 35%;
 }
 
+/*FOOTER SECTION*/
+footer {
+  background-color: azure;
+  margin-bottom: 4rem;
+  margin-top: 4rem;
+  display: flex;
+  align-items: center;
+}
+footer img {
+  height: 1.5rem;
+  margin-left: 4rem;
+  margin-right: 1rem;
+}
+footer p {
+  font-family: Helvetica;
+  font-size: 1rem;
+  color: gray;
+}
 /*RESPONSIVE TABLET SECTION*/
 @media (max-width: 1000px) {
   .banner-container {
@@ -249,6 +269,12 @@ h2 {
     margin-left: none;
     display: flex;
     justify-content: center;
+  }
+  footer img {
+    margin-left: 45%;
+  }
+  footer p {
+    display: none;
   }
 }
 @media (max-width: 450px) {
