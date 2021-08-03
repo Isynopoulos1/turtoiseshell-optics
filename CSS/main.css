@@ -1,0 +1,87 @@
+/*GENERAL SECTION*/
+body {
+  background-color: azure;
+}
+
+/*MAIN SECTION*/
+main {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  background-color: white;
+}
+
+.icons-section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 3rem;
+  margin-bottom: 3rem;
+}
+.icons-section p {
+  font-family: Helvetica;
+  text-align: center;
+  margin-top: 5px;
+}
+.icon-1 {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  margin-right: 6rem;
+}
+.icon-1 img {
+  width: 3.5rem;
+  margin-bottom: 1rem;
+}
+.icon-2 {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  margin-right: 6rem;
+}
+.icon-2 img {
+  width: 5rem;
+  margin-bottom: 1rem;
+}
+.icon-3 img {
+  width: 5rem;
+  margin-bottom: 1rem;
+}
+/*BLOCKS SECTION*/
+
+h2 {
+  font-family: Helvetica;
+  font-weight: bold;
+  font-size: 1rem;
+  color: white;
+  display: flex;
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+  margin-left: 1.25rem;
+}
+.tittle-1 {
+  width: 10rem;
+  background-color: cadetblue;
+}
+.tittle-2 {
+  width: 10rem;
+  background-color: cadetblue;
+}
+.blocks {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  grid-gap: 5rem;
+  margin-bottom: 5rem;
+}
+.blocks p {
+  font-family: Helvetica;
+  margin-top: 1rem;
+  font-size: 1rem;
+}
+.block-1 {
+  width: 35%;
+}
+.block-2 {
+  width: 35%;
+}

@@ -1,0 +1,18 @@
+/*FOOTER SECTION*/
+footer {
+  background-color: azure;
+  margin-bottom: 4rem;
+  margin-top: 4rem;
+  display: flex;
+  align-items: center;
+}
+footer img {
+  height: 1.5rem;
+  margin-left: 4rem;
+  margin-right: 1rem;
+}
+footer p {
+  font-family: Helvetica;
+  font-size: 1rem;
+  color: gray;
+}
